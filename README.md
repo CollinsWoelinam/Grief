@@ -1,0 +1,1 @@
+This is just a practice folder. The index file has a nav bar and a few content. The gallery has a few pictures.The main shows is a frontpage of a site with one video uploaded.Navigation bar has a vertical, horizontal and a drpdown  nav bar. The video as a video in it and Practise has random stuff like buttons and their effects.

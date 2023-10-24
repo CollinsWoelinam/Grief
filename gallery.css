@@ -1,0 +1,18 @@
+.gallery{
+    margin: 20px;
+    border: 1px solid gray;
+    width: 200px;
+    float: left;
+    border-radius: 4px;
+}
+.gallery:hover{
+    border: 1px solid black;
+}
+.gallery img{
+    width: 100%;
+    height: auto;
+}
+.text{
+    padding: 10px;
+    text-align: center;
+}

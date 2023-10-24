@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+}
+.horizontal{
+    background-color: chartreuse;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.horizontal li a{
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    float: left;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+.horizontal li a:active{
+    background-color: rgb(67, 131, 3);
+}
+.horizontal li a:hover{
+    opacity: 0.5;
+    color: black;
+    background-color: rgb(0, 255, 106);
+}
+.vertical{
+    background-color: rgb(2, 143, 143);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    max-height: fit-content;
+}
+.vertical li a{
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: antiquewhite;
+    left: 50px;
+}
+.vertical li a:hover{
+    background-color: aqua;
+    /* border-bottom-right-radius: 10px; */
+    /* border-top-right-radius: 10px; */
+    color: rgb(2, 43, 43);
+}
+
+.drop{
+    display: block;
+    position: relative;
+}
+.down{
+    padding: 15px;
+    color: white;
+    background-color: gold;
+    font-size: large; 
+    /* margin-left: 50%; */
+    /* position: relative; */
+    border: none;
+}
+.content{
+    background-color: rgb(46, 41, 41);
+    color: white;
+    width: 100px;
+    font-size: large;
+    position: absolute;
+    display: none;
+    box-shadow: 5px 5px 10px 2px gray;
+}
+.content a{
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+    display: block;
+}
+.down:hover{
+    color: black;
+    background-color: rgb(231, 203, 42);
+}
+.content a:hover{
+    background-color: rgb(102, 96, 96);
+}
+.drop:hover .content{
+    display: block;
+}
